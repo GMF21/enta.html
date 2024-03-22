@@ -1,0 +1,55 @@
+#main{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(fundo-azul-abstrato-hd\ \(1\)\(1\).jpg);
+    background-size: cover;
+}
+
+
+
+.col1 img{
+    position: absolute;
+    left: 25%;
+}
+
+.menu{
+    position: absolute;
+    left: 40%;
+    top: 4%;
+}
+
+.menu li a{
+    color: rgb(62, 157, 245);
+    
+}
+
+
+.menu li{
+    display: inline-block;
+    
+    vertical-align: middle;
+    width: 160px;
+    height: 5%;
+    border-radius: 15px;
+    text-align: center;
+    
+
+}
+
+
+.log{
+    position: absolute;
+    left: 90%;
+}
+
+.menu li:hover{
+    background-color: rgb(211, 207, 207);
+}
+
+.log:hover{
+    
+}
