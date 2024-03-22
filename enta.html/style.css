@@ -8,7 +8,10 @@ body{
     background-image: url(fundo-azul-abstrato-hd\ \(1\)\(1\).jpg);
     background-size: cover;
 }
+ 
+.col2{
 
+}
 
 
 .col1 img{
@@ -53,3 +56,30 @@ body{
 .log:hover{
     
 }
+
+
+.imgenta{
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    height: 100%;
+    border-right: black solid 4px;
+    border-radius: 10px;
+}
+
+iframe{
+    position: absolute;
+    top: 15%;
+    left: 26.3%;
+    width: 73.7%;
+    height: 100%;
+    background-color: gray;
+    border: black 1px groove;
+    border-radius: 10px;
+}
+
+iframe::before{
+    backdrop-filter: blur(1px);
+}
+
+
